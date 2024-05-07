@@ -28,7 +28,6 @@ header {
 
 .hamburger-menu {
   cursor: pointer;
-  /* display: inline; */
 }
 
 .bar {
@@ -139,18 +138,28 @@ header {
 }
 .form-inline .form-control {
   width: 400px; /* Adjust width as needed */
-  height: 20px;
+  height: 40px;
   border-radius: 20px; /* Rounded corners */
   border: 1px solid #ced4da; /* Border color */
   background-color: #f8f9fa; /* Background color */
   color: #495057; /* Text color */
 }
+svg {
+  width: 24px;
+  padding: 10px 5px;
+  height: 24px;
+}
+svg path,
+svg circle {
+  stroke: #fff;
+}
 
 .form-inline .form-control::placeholder {
   color: #6c757d; /* Placeholder text color */
-  transform: translate(50%);
+  transform: translate(47%);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: 600px;
+  font-size: larger;
 }
 
 .form-inline .form-control:focus {
@@ -158,14 +167,14 @@ header {
   box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Focus shadow */
 }
 
-.product-cards h1{
-    text-align: center;
-    margin: 50px 0;
-    font-size: 48px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #d3a121;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+.product-cards h1 {
+  text-align: center;
+  margin: 50px 0;
+  font-size: 48px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #d3a121;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .container {
@@ -179,23 +188,24 @@ header {
 .card {
   height: 330px;
   width: 300px;
-  background-color: #fff;
+  background-color: #868686;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin: 20px;
   border-radius: 5px;
   overflow: hidden;
 }
 
-.card:hover{
+.card:hover {
   cursor: pointer;
   margin-top: -5px;
-  transition: .4s;
+  transition: 0.4s 0.1s;
 }
+
 .card img {
   width: 100%;
   height: 180px;
 }
-.container a{
+.container a {
   text-decoration: none;
 }
 
@@ -221,9 +231,9 @@ header {
   font-weight: bold;
   color: #f00;
 }
-#trousers .card{
+#trousers .card {
   height: 400px;
 }
-#trousers .card img{
+#trousers .card img {
   height: 250px;
 }
