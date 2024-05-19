@@ -20,7 +20,7 @@ header {
 
 .navbar {
   display: inline;
-  background-color: #333;
+  background-color: #222;
   color: #fff;
   padding: 10px;
   width: 100px;
@@ -120,21 +120,20 @@ header {
 .dot {
   height: 15px;
   width: 15px;
-  background-color: #bbb;
+  background-color: #dedede;
   border-radius: 50%;
   margin: 5px 0;
   cursor: pointer;
 }
 
 .active {
-  background-color: #555;
+  background-color: #3b3b3b;
 }
 
 .form-inline {
   display: flex;
   justify-content: center;
   margin-top: 20px;
-  /* margin-bottom: 50px; */
 }
 .form-inline .form-control {
   width: 400px; /* Adjust width as needed */
@@ -188,7 +187,7 @@ svg circle {
 .card {
   height: 330px;
   width: 300px;
-  background-color: #868686;
+  background-color: #b3b3b3;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin: 20px;
   border-radius: 5px;
